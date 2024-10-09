@@ -9,6 +9,10 @@ Welcome to the Arena!
 
 This is a ready-to-run release of ioQuake3 for Windows for Quake 3 Frag Nights.
 
+{{MacOS(ARM) Package}}
+{{Windows Package}}
+{{Linux Package}}
+
 CHANGES:
 
 +Initial Release
