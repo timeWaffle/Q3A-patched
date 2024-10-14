@@ -19,12 +19,6 @@ Waffles-Canned-Quake3Arena(ioquake3)v1.zip
 Unzip package. Place in your favorite directory.
 Double click the shortcut 'Enter the Arena!'
 
-{{Linux Package}}
-(Most Linux distributions have a version of ioquake3 available via the package manager.)
-(Please consult your distribution’s documentation.)
-Also available: Waffles-Canned-Q3A-linux-x86_64-v1.rar
-./ioquake3.x86_64
-
 CHANGES:
 
 +Initial Release
@@ -41,5 +35,5 @@ HOW DO I JOIN A MATCH?:
 1. Click "Multiplayer"
 2. Hit Space to pause server searching.
 3. Click "Specify" at the bottom left.
-4. Enter the address "waffle.webhop.me" , default port 27960.
+4. Enter the server address, default port 27960.
 5. Click "FIGHT" to enter the match.
