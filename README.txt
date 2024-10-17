@@ -10,14 +10,24 @@ Welcome to the Arena!
 This is a ready-to-run release of ioQuake3 for Windows for Quake 3 Frag Nights.
 
 {{MacOS(ARM) Package}}
-Waffles-Canned-Q3A-macOS-arm.rar
+Waffles-Canned-Q3A-macOS-armV1.rar
 Place unpacked ioQuake3 folder into /Applications/
 Run ioquake3.app
+
+ioQuake3 will place configurations in:
+/Users/userName/Library/Application Support/Quake3/baseq3/q3config.cfg
+ARM Macs should have no problem running full memory settings:
+com_hunkMegs 1024; com_soundMegs 64; com_zoneMegs 128;
 
 {{Windows Package}}
 Waffles-Canned-Quake3Arena(ioquake3)v1.zip
 Unzip package. Place in your favorite directory.
 Double click the shortcut 'Enter the Arena!'
+
+ioQuake3 configurations will be found:
+C:\Users\User\AppData\Roaming\Quake3\baseq3\q3config.cfg
+Canned version ships with com_hunkMegs 512; com_soundMegs 32; com_zoneMegs 64
+
 
 CHANGES:
 
