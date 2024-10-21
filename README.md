@@ -11,7 +11,7 @@
 This is a ready-to-run release of ioQuake3 for Windows for Quake 3 Frag Nights.
 
 ## MacOS(ARM) Package
-**Waffles-Canned-Q3A-macOS-armV1.rar**  
+**Waffles-Canned-Q3A-macOS-arm-v0.2.zip**  
 Place unpacked ioQuake3 folder into `/Applications/`  
 Run `ioquake3.app`
 
@@ -50,11 +50,13 @@ Canned version ships with:
 │   ├── pak6.pk3
 │   ├── pak7.pk3
 │   └── pak8.pk3
-└── missionpack
-    ├── pak0.pk3
-    ├── pak1.pk3
-    ├── pak2.pk3
-    └── pak3.pk3
+│   └── pak8a.pk3
+│   └── qwpak0.pk3
+│   └── qwpak1.pk3
+│   └── qwpak2.pk3
+│   └── qwpak3.pk3
+│   └── qwpak4.pk3
+
 ```
 ## HOW DO I GET STARTED?:
 1. Double-click the shortcut **'Enter the Arena!'**
