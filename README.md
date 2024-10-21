@@ -38,7 +38,24 @@ Canned version ships with:
 - Removed bloat mods
 - Updated to latest ioQuake3 Release (Windows)
 - Deployed v0.1 is Vanilla Q3A
-  
+```
+.q3a/
+├── baseq3
+│   ├── pak0.pk3
+│   ├── pak1.pk3
+│   ├── pak2.pk3
+│   ├── pak3.pk3
+│   ├── pak4.pk3
+│   ├── pak5.pk3
+│   ├── pak6.pk3
+│   ├── pak7.pk3
+│   └── pak8.pk3
+└── missionpack
+    ├── pak0.pk3
+    ├── pak1.pk3
+    ├── pak2.pk3
+    └── pak3.pk3
+```
 ## HOW DO I GET STARTED?:
 1. Double-click the shortcut **'Enter the Arena!'**
 2. Click **"Setup"** then **"Player"** to define your character model.
