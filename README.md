@@ -37,6 +37,7 @@ Canned version ships with:
 ## v2.0
 - Updated to BFG Edition 1.0 (pak9.pk3)
   [[https://www.moddb.com/mods/quake-iii-arena-bfg-edition]]
+- While this is an outstanding MOD pack, it is NEARLY 2GB in SIZE by itself (pak9.pk3 1.85GB)
 - Created Waffles-Quake3Arena-UpgradePaksOnly(MultiPlatform)v2.rar to distribute BFG Pack and configurations only.
 - Github Does not like release file sizes over 2GB. Will need to break up future Canned versions into upgrade packs.
 - BFG Edition enhances nearly every aspect of the game.
