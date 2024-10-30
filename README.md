@@ -48,7 +48,7 @@ Canned version ships with:
 ### UPGRADE INSTRUCTIONS:
 
 ### BFG Edition Upgrade:
-1. Copy pak8a.pk3 and pak9.pk3, add to your existing Quake 3 Arena installation \baseq3 folder:
+1. Copy pak8a.pk3, pak9.pk3, and all of the 'zzzz-' Custom Models, and add to your existing Quake 3 Arena installation /baseq3 folder:
 
 2. Your installation directory may vary depending on platform.
 + Windows: `C:\Program Files\Quake 3 Arena\baseq3\.`
@@ -97,16 +97,24 @@ $my_install_dir/Quake3/
 	│   ├── qwpak2.pk3
 	│   ├── qwpak3.pk3
 	│   └── qwpak4.pk3
+	│   ├── zzzz-md3-camper.pk3 -- Camper Skin
+	│   ├── zzzz-md3-gp01.pk3 -- Gunam Skin
+	│   ├── zzzz-md3-gp01fb.pk3 -- Gundam FB Skin
+	│   ├── zzzz-md3-homie.pk3 -- Homer Simpson
+	│   ├── zzzz-md3-johnny5.pk3 -- Johnny 5
+	│   ├── zzzz-md3-snoopy.pk3 -- Snoopy
+	│   ├── zzzz-md3-Sonic.pk3 -- Sonic
+	│   ├── zzzz-md3-zilla.pk3 -- Godzilla
+	│   ├── zzzz-md3-zorak2.pk3 -- Zorak
+	│   ├── zzzz-pa-terrorpack1.pk3 -- FBI Most Wanted List
+	│   ├── zzzz-skn-grunt-mlpb.pk3 -- MLP Grunt Skin
+	│   └── zzzz-tronMd3.pk3 -- Tron Skin
 	|
 	├── excessiveplus -- Waffles Upgrade Pack
 	│   ├── z-xp-2_0a.pk3
 	│   ├── z-xp-2_1.pk3
 	│   ├── z-xp-2_2b.pk3
-	│   ├── z-xp-2_3.pk3
-	│   ├── zzzz-md3-gp01.pk3
-	│   ├── zzzz-md3-gp01fb.pk3
-	│   ├── zzzz-md3-Sonic.pk3
-	|   └── zzzz-skn-grunt-mlpb.pk3
+	│   └── z-xp-2_3.pk3
 
 ```
 
@@ -115,6 +123,9 @@ Special thank you to Briston-idtech89 for this BFG Edition!
 
 Special thank you to the Excessive Plus+ Community!
 [[www.excessiveplus.net]]
+
+Custom Player Models farmed from Q3DF dot Org
+[[https://ws.q3df.org/]]
 
 
 ## v.01 - v.02
