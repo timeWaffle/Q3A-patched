@@ -58,11 +58,11 @@ Canned version ships with:
 3. Copy the "autoexec.cfg" file (necessary to set key parameters and apply an optimal configuration) into your q3a config directory:
 
 4. Your config directory may vary depending on platform.
-  + Windows: `C:\Users\%USERNAME%\AppData\Roaming\Quake3\baseq3\.`
-  + Mac: `~/Users/%userName%/Library/Application Support/Quake 3 Arena/baseq3/.`
-  + Linux: `~/.q3a/baseq3/.`
++ Windows: `C:\Users\%USERNAME%\AppData\Roaming\Quake3\baseq3\.`
++ Mac: `~/Users/%userName%/Library/Application Support/Quake 3 Arena/baseq3/.`
++ Linux: `~/.q3a/baseq3/.`
 
-6. Done!
+5. Done!
 
 ### Excessive Plus+ Upgrade:
 1. Copy the entire included 'excessiveplus' directory to your existing install of Quake 3 Arena.
@@ -72,9 +72,9 @@ Canned version ships with:
   + For Mac: `/Applications/Quake 3 Arena/.`
   + For Linux: `/opt/quake3/.`
 
-4. The 'excessiveplus' directory lives in the same directory as baseq3.
+3. The 'excessiveplus' directory lives in the same directory as baseq3.
 
-6. Done!
+4. Done!
 
 Please see the example directory hierarchy below for reference:
 ```
