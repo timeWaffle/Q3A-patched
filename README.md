@@ -47,7 +47,7 @@ Canned version ships with:
 
 ### UPGRADE INSTRUCTIONS:
 
-BFG Edition Upgrade:
+### BFG Edition Upgrade:
 1. Copy pak8a.pk3 and pak9.pk3, add to your existing Quake 3 Arena installation \baseq3 folder:
 
 2. Your installation directory may vary depending on platform.
@@ -64,7 +64,7 @@ BFG Edition Upgrade:
 
 6. Done!
 
-Excessive Plus+ Upgrade:
+### Excessive Plus+ Upgrade:
 1. Copy the entire included 'excessiveplus' directory to your existing install of Quake 3 Arena.
 
 2. Your installation directory may vary depending on platform.
