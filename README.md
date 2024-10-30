@@ -112,6 +112,7 @@ $my_install_dir/Quake3/
 
 Special thank you to Briston-idtech89 for this BFG Edition!
 [[https://www.moddb.com/mods/quake-iii-arena-bfg-edition]]
+
 Special thank you to the Excessive Plus+ Community!
 [[www.excessiveplus.net]]
 
