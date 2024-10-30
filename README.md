@@ -11,7 +11,7 @@
 This is a ready-to-run release of ioQuake3 for Windows for Quake 3 Frag Nights.
 
 ## MacOS(ARM) Package
-**Waffles-Canned-Q3A-macOS-arm-v0.2.zip**  
+**Waffles-Canned-Q3A-macOS-arm-v1.02.zip**  
 Place unpacked ioQuake3 folder into `/Applications/`  
 Run `ioquake3.app`
 
@@ -35,62 +35,85 @@ Canned version ships with:
 # CHANGES:
 
 ## v2.0
-- Updated to BFG Edition 1.0 (pak9.pk3)
-  [[https://www.moddb.com/mods/quake-iii-arena-bfg-edition]]
-- While this is an outstanding MOD pack, it is NEARLY 2GB in SIZE by itself (pak9.pk3 1.85GB)
-- Created Waffles-Quake3Arena-UpgradePaksOnly(MultiPlatform)v2.rar to distribute BFG Pack and configurations only.
+### v2.1-lite
++ LITE INCLUDES ONLY THE UPDATED PAKS. YOU MUST MOVE THEM INTO THE CORRECT FORDORS.
++ Excessive Plus 2.3 Mod [[www.excessiveplus.net]]
++ Updated to BFG Edition 1.0 (pak9.pk3) [[www.moddb.com/mods/quake-iii-arena-bfg-edition]]
++ BFG Edition enhances nearly every aspect of the game.
++ Created Waffles-Quake3Arena-Upgrade(MultiPlatform)v2.1.rar to distribute BFG Pack, Excessive Plus, and Models.
+  
 - Github Does not like release file sizes over 2GB. Will need to break up future Canned versions into upgrade packs.
-- BFG Edition enhances nearly every aspect of the game.
+
 
 ### UPGRADE INSTRUCTIONS:
 
-**Copy pak8a.pk3 and pak9.pk3, add them to your existing Quake 3 Arena installation \baseq3 folder:
+BFG Edition Upgrade:
+1. Copy pak8a.pk3 and pak9.pk3, add to your existing Quake 3 Arena installation \baseq3 folder:
 
-`Windows: C:\Program Files\Quake 3 Arena\baseq3\.`
+2. Your installation directory may vary depending on platform.
++ Windows: `C:\Program Files\Quake 3 Arena\baseq3\.`
++ Mac: `/Applications/Quake 3 Arena/baseq3/.`
++ Linux: `/opt/quake3/baseq3/.`
 
-`MacOS: /Applications/Quake 3 Arena/baseq3/.`
+3. Copy the "autoexec.cfg" file (necessary to set key parameters and apply an optimal configuration) into your q3a config directory:
+
+4. Your config directory may vary depending on platform.
+  + Windows: `C:\Users\%USERNAME%\AppData\Roaming\Quake3\baseq3\.`
+  + Mac: `~/Users/%userName%/Library/Application Support/Quake 3 Arena/baseq3/.`
+  + Linux: `~/.q3a/baseq3/.`
+
+6. Done!
+
+Excessive Plus+ Upgrade:
+1. Copy the entire included 'excessiveplus' directory to your existing install of Quake 3 Arena.
+
+2. Your installation directory may vary depending on platform.
+  + For Windows: `C:\Program Files\Quake 3 Arena\.`
+  + For Mac: `/Applications/Quake 3 Arena/.`
+  + For Linux: `/opt/quake3/.`
+
+4. The 'excessiveplus' directory lives in the same directory as baseq3.
+
+6. Done!
+
+Please see the example directory hierarchy below for reference:
+```
+$my_install_dir/Quake3/
+	|
+	├── baseq3
+	│   ├── pak0.pk3
+	│   ├── pak1.pk3
+	│   ├── pak2.pk3
+	│   ├── pak3.pk3
+	│   ├── pak4.pk3  
+	│   ├── pak5.pk3
+	│   ├── pak6.pk3
+	│   ├── pak7.pk3
+	│   ├── pak8.pk3
+	│   ├── pak8a.pk3 -- Waffles Upgrade Pack 
+	│   ├── pak9.pk3  -- Waffles Upgrade Pack 
+	│   ├── qwpak0.pk3
+	│   ├── qwpak1.pk3
+	│   ├── qwpak2.pk3
+	│   ├── qwpak3.pk3
+	│   └── qwpak4.pk3
+	|
+	├── excessiveplus -- Waffles Upgrade Pack
+	│   ├── z-xp-2_0a.pk3
+	│   ├── z-xp-2_1.pk3
+	│   ├── z-xp-2_2b.pk3
+	│   ├── z-xp-2_3.pk3
+	│   ├── zzzz-md3-gp01.pk3
+	│   ├── zzzz-md3-gp01fb.pk3
+	│   ├── zzzz-md3-Sonic.pk3
+	|   └── zzzz-skn-grunt-mlpb.pk3
 
 ```
-.q3a/
-├── baseq3
-│   ├── pak0.pk3
-│   ├── pak1.pk3
-│   ├── pak2.pk3
-│   ├── pak3.pk3
-│   ├── pak4.pk3
-│   ├── pak5.pk3
-│   ├── pak6.pk3
-│   ├── pak7.pk3
-│   └── pak8.pk3
-│   └── pak8a.pk3 --*
-│   └── pak9.pk3  --*
-│   └── qwpak0.pk3
-│   └── qwpak1.pk3
-│   └── qwpak2.pk3
-│   └── qwpak3.pk3
-│   └── qwpak4.pk3
 
-*Waffles Quake 3 Arena Multiplatform LITE version includes the new pak8a.pk3 and pak9.pak necessary for BFG Edition.
-```
-
-**Copy the "autoexec.cfg" file (necessary to set key parameters and apply an optimal configuration) into:
-
-`Windows ioquake3 Configurations: place it in C:\Users%USERNAME%\AppData\Roaming\Quake3\baseq3.`
-
-`Mac ioquake3 Configurations: place it in /Users/userName/Library/Application\ Support\Quake3\baseq3`
-
-Features:
-- 178 Arenas: Includes both the original and Quake Live maps, with improvements to both.
-- 227 Player Skins and 129 Bots: Exported models and sounds from Team Arena, as well as enhanced community skins, all maintaining the high quality of BFG. 
-- Weapons: Updated using models from Quake Arena Arcade, with new skins, effects, and sounds, including ammunition boxes.
-- Textures and Graphics: Almost 90% of graphics, or more, have been upscaled using AI, covering models, textures, effects, sprites, icons, and more.
-- Sounds: New, high-quality sounds. Multiple sources.
-- Hundreds of Minor Fixes: Too many to list individually.
-- MULTIPLAYER compatible: All players must have the mod installed on the same version.
-
-Special thank you to Briston-idtech89 for this compilation of improvements!
-
+Special thank you to Briston-idtech89 for this BFG Edition!
 [[https://www.moddb.com/mods/quake-iii-arena-bfg-edition]]
+Special thank you to the Excessive Plus+ Community!
+[[www.excessiveplus.net]]
 
 
 ## v.01 - v.02
