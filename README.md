@@ -35,12 +35,12 @@ Canned version ships with:
 # CHANGES:
 
 ## v2.0
-### v2.1-lite
-+ LITE INCLUDES ONLY THE UPDATED PAKS. YOU MUST MOVE THEM INTO THE CORRECT FORDORS.
-+ Excessive Plus 2.3 Mod [[www.excessiveplus.net]]
-+ Updated to BFG Edition 1.0 (pak9.pk3) [[www.moddb.com/mods/quake-iii-arena-bfg-edition]]
+### v2.1-UPGRADE
++ THE UPGRADE PACK INCLUDES ONLY THE UPDATED PAKS. YOU MUST MOVE THEM INTO YOUR EXISTING Q3A INSTALLATION.
++ Excessive Plus 2.3 Mod ('excessiveplus' directory) [[www.excessiveplus.net]]
++ BFG Edition 1.0 (pak9.pk3) [[www.moddb.com/mods/quake-iii-arena-bfg-edition]]
 + BFG Edition enhances nearly every aspect of the game.
-+ Created Waffles-Quake3Arena-Upgrade(MultiPlatform)v2.1.rar to distribute BFG Pack, Excessive Plus, and Models.
++ Created Waffles-Quake3Arena-Upgrade(MultiPlatform)v2.1.rar to distribute BFG Pack, Excessive Plus, and Models ONLY.
   
 - Github Does not like release file sizes over 2GB. Will need to break up future Canned versions into upgrade packs.
 
