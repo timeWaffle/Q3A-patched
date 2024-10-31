@@ -97,6 +97,12 @@ $my_install_dir/Quake3/
 	│   ├── qwpak2.pk3
 	│   ├── qwpak3.pk3
 	│   └── qwpak4.pk3
+	|
+	├── excessiveplus -- Waffles Upgrade Pack
+	│   ├── z-xp-2_0a.pk3
+	│   ├── z-xp-2_1.pk3
+	│   ├── z-xp-2_2b.pk3
+	│   └── z-xp-2_3.pk3
 	│   ├── zzzz-md3-camper.pk3 -- Camper Skin
 	│   ├── zzzz-md3-gp01.pk3 -- Gunam Skin
 	│   ├── zzzz-md3-gp01fb.pk3 -- Gundam FB Skin
@@ -109,13 +115,6 @@ $my_install_dir/Quake3/
 	│   ├── zzzz-pa-terrorpack1.pk3 -- FBI Most Wanted List
 	│   ├── zzzz-skn-grunt-mlpb.pk3 -- MLP Grunt Skin
 	│   └── zzzz-tronMd3.pk3 -- Tron Skin
-	|
-	├── excessiveplus -- Waffles Upgrade Pack
-	│   ├── z-xp-2_0a.pk3
-	│   ├── z-xp-2_1.pk3
-	│   ├── z-xp-2_2b.pk3
-	│   └── z-xp-2_3.pk3
-
 ```
 
 Special thank you to Briston-idtech89 for this BFG Edition!
